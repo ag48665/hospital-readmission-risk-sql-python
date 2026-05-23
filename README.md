@@ -215,6 +215,20 @@ hospital-readmission-risk-sql-python/
 └── README.md
 
 ---
+# Repository Structure
+
+```text
+hospital-readmission-risk-sql-python/
+│
+├── database/
+├── sql/
+├── notebooks/
+├── screenshots/
+├── outputs/
+└── README.md
+```
+
+---
 
 # Future Improvements
 
