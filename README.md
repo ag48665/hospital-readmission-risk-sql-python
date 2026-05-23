@@ -1,36 +1,90 @@
-## Python Machine Learning Analysis
+---
 
-This project also includes a machine learning workflow for predicting 30-day hospital readmission risk using Python and scikit-learn.
+## Healthcare Analytics Objectives
 
-### ML Techniques
-- Logistic Regression
-- Feature Importance Analysis
-- ROC Curve & AUC
-- Predictive Risk Modeling
+The primary objective of this project is to identify clinical and operational factors associated with 30-day hospital readmission risk.
 
-### Features Used
-- Age
-- BMI
-- Diabetes
-- Hypertension
-- ICU admission
-- Length of stay
-- Hospitalization cost
+The analysis focuses on:
+- patient-level healthcare risk profiling,
+- hospitalization cost analysis,
+- ICU admission trends,
+- chronic disease burden,
+- predictive healthcare analytics,
+- hospital performance KPIs.
 
-## Project Screenshots
+The project simulates a realistic healthcare analytics workflow commonly used in:
+- hospitals,
+- healthcare insurance,
+- public health analytics,
+- healthcare consulting,
+- health informatics.
 
-### Hospital KPI Analysis
-![Hospital KPI](screenshots/sql-hospital-statistics-query.png)
+---
 
-### Readmission Risk Segmentation
-![Risk Segmentation](screenshots/readmission_risk_segmentation.png)
+## SQL Analytics Performed
 
-### High Risk Patient CTE Analysis
-![CTE Analysis](screenshots/cte_high_risk_patients.png)
+### Clinical Risk Analysis
+- Identification of high-risk readmission patients
+- ICU admission trend analysis
+- Chronic disease risk profiling
+- Hospitalization cost segmentation
 
-### Window Function Cost Analysis
-![Window Functions](screenshots/window_function_costs.png)
+### Advanced SQL Techniques
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking Functions
+- Aggregation & KPI Calculations
+- CASE WHEN risk classification
+- Multi-table JOIN analysis
 
-### Patient Cost Ranking
-![Ranking](screenshots/patient_cost_ranking.png)
+---
 
+## Machine Learning Workflow
+
+The Python notebook extends the SQL analysis into predictive modeling.
+
+### ML Pipeline
+1. Data preprocessing
+2. Exploratory data analysis (EDA)
+3. Feature selection
+4. Logistic regression modeling
+5. Readmission probability prediction
+6. ROC-AUC evaluation
+7. Feature importance interpretation
+
+### Business Value
+The workflow demonstrates how healthcare institutions can:
+- identify high-risk patients earlier,
+- optimize hospital resource allocation,
+- reduce preventable readmissions,
+- improve patient outcome monitoring,
+- support data-driven clinical decision making.
+
+---
+
+## Technologies Used
+
+### SQL & Database
+- SQLite
+- DB Browser for SQLite
+
+### Python & Machine Learning
+- Python
+- pandas
+- scikit-learn
+- matplotlib
+- Google Colab
+
+---
+
+## Repository Structure
+
+```text
+hospital-readmission-risk-sql-python/
+│
+├── database/
+├── sql/
+├── notebooks/
+├── screenshots/
+├── outputs/
+└── README.md
